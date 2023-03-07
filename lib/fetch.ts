@@ -2,7 +2,7 @@ const { request } = require('https')
 const { URL } = require('url')
 import type { IncomingMessage } from 'http'
 
-function fetchCssResource(path: string) {
+function fetchCssResource(path: string): Promise<string> {
   return new Promise((resolve, reject) => {
     const options = new URL(path)
     let data = ''

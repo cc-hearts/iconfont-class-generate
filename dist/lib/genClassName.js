@@ -10,10 +10,8 @@ function generatorIcon(data) {
         throw new Error('prefix match error');
     }
     const regClass = /\.(.*?)(?=:)/gm;
-    let icons = data.match(regClass);
-    if (icons) {
-        icons = icons.map((val) => val.replace('.', `${prefix} `));
-    }
+    let icons = data.match(regClass) || [];
+    icons = icons.map((val) => val.replace('.', `${prefix} `));
     return [prefix, icons];
 }
 module.exports = {

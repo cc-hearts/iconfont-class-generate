@@ -10,5 +10,9 @@
     "useDefineForClassFields": true,
     "strict": true,
     "outDir": "dist"
-  }
+  },
+  "exclude": [
+    "jest.config.ts",
+    "**/test/**/*.ts"
+  ]
 }
