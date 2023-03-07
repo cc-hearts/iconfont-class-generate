@@ -1,4 +1,3 @@
-
 function generatorIcon(data: string) {
   const reg = /font-family:\s*"(.*?)"/
   let prefix = ''

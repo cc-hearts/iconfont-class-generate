@@ -1,6 +1,6 @@
 const { request } = require('https')
-import type { IncomingMessage } from 'http'
 const { URL } = require('url')
+import type { IncomingMessage } from 'http'
 
 function fetchCssResource(path: string) {
   return new Promise((resolve, reject) => {
