@@ -4,7 +4,7 @@ const { resolve, join } = require('path');
 const { existsSync } = require('fs');
 const { genJson } = require('./lib/genJson');
 const { writeFile } = require('./lib/write');
-const { generatorIcon } = require('./lib/generatorIcon');
+const { generatorIcon } = require('./lib/genClassName');
 const fs_1 = require("fs");
 const fileName = '.iconGenCode';
 async function bootstrap() {

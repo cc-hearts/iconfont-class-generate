@@ -2,7 +2,7 @@ const { resolve, join } = require('path')
 const { existsSync } = require('fs')
 const { genJson } = require('./lib/genJson')
 const { writeFile } = require('./lib/write')
-const { generatorIcon } = require('./lib/generatorIcon')
+const { generatorIcon } = require('./lib/genClassName')
 import { mkdirSync } from 'fs'
 import type { IMap } from './lib/genJson.js'
 const fileName = '.iconGenCode'
