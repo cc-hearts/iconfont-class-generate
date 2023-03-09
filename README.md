@@ -11,12 +11,12 @@ npm install @cc-heart/icon-class-generate
 
 ## Usage
 
-- Create a `.icongencode.js` file in the root directory
+- Create a `.iconrc.js` file in the root directory
 
 Add the following configuration
 ```js
 module.exports = {
-  iconList: ['https://xxxx/t/c/font_3888777_2gm7zu04pg7.css'],
+  iconList: ['https://at.alicdn.com/t/c/font_3590164_vc3wep8wbzf.css'],
   outDir: '/icon'
 }
 ```

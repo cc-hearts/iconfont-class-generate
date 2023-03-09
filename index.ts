@@ -5,7 +5,7 @@ const { writeFile } = require('./lib/write')
 const { generatorIcon } = require('./lib/genClassName')
 import { mkdirSync } from 'fs'
 import type { IMap } from './lib/genJson.js'
-const fileName = '.iconGenCode'
+const fileName = '.iconrc'
 
 interface IconGenCode {
   iconList: string[]
