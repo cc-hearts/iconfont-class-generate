@@ -6,7 +6,7 @@ const { genJson } = require('./lib/genJson');
 const { writeFile } = require('./lib/write');
 const { generatorIcon } = require('./lib/genClassName');
 const fs_1 = require("fs");
-const fileName = '.iconGenCode';
+const fileName = '.iconrc';
 async function bootstrap() {
     const originPath = process.cwd();
     const suffix = ['js', 'cjs', 'mjs'];
