@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "icon": "iconrc"
   },
   "keywords": [],
   "author": "heart",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@cc-heart/icon-class-generate": "^1.0.4"
+  }
 }
