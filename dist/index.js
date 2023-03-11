@@ -4,7 +4,6 @@ const { resolve, join } = require('path');
 const { existsSync } = require('fs');
 const { genJson } = require('./lib/genJson');
 const { writeFile } = require('./lib/write');
-const { generatorIcon } = require('./lib/genClassName');
 const fs_1 = require("fs");
 const fileName = '.iconrc';
 async function bootstrap() {
@@ -40,7 +39,4 @@ async function bootstrap() {
     const iconFilePath = join(outDirPath, '.icon.json');
     writeFile(iconFilePath, JSON.stringify(result, null, 4));
 }
-module.exports = {
-    bootstrap,
-    generatorIcon
-};
+bootstrap();
