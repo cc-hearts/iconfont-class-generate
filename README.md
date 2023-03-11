@@ -20,11 +20,17 @@ module.exports = {
   outDir: '/icon'
 }
 ```
-
+Add the run command to `package.json`
+```js
+"scripts": {
+ // ...
+ "icon": "iconrc"
+},
+```
 Run the following command
 
 ```shell
-npx run iconrc
+npm icon
 ```
 
 An `icon.json` file lives in the specified `outdir` file directory
